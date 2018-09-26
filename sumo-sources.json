@@ -1,0 +1,14 @@
+{
+  "api.version": "v1",
+  "sources": [
+    {
+      "sourceType" : "LocalFile",
+      "name": "localfile-collector-container",
+      "pathExpression": "/tmp/clogs/**",
+      "multilineProcessingEnabled": true,
+      "automaticDateParsing": true,
+      "forceTimeZone": false,
+      "category": "collector-container"
+    }
+	]
+}
